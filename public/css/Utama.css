@@ -1,0 +1,2091 @@
+/* -----------------
+    font    
+----------------------*/
+@font-face {
+    font-family: 'Regular';
+    src: url('../../font/Nunito/Nunito-Black.ttf'),
+        url('../../font/Nunito/Nunito-BlackItalic.ttf'),
+        url('../../font/Nunito/Nunito-Italic.ttf'),
+        url('../../font/Nunito/Nunito-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'terang';
+    src: url('../../font/Nunito/Nunito-ExtraLight.ttf'),
+        url('../../font/Nunito/Nunito-ExtraLightItalic.ttf'),
+        url('../../font/Nunito/Nunito-Light.ttf'),
+        url('../../font/Nunito/Nunito-LightItalic.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('../../font/Nunito/Nunito-Bold.ttf'),
+        url('../../font/Nunito/Nunito-BoldItalic.ttf'),
+        url('../../font/Nunito/Nunito-ExtraBold.ttf'),
+        url('../../font/Nunito/Nunito-ExtraBoldItalic.ttf'),
+        url('../../font/Nunito/Nunito-SemiBold.ttf'),
+        url('../../font/Nunito/Nunito-SemiBoldItalic.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* -------------
+    navbar
+------------------*/
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+
+.pcversion .navbar {
+    height: 100px;
+}
+
+.pcversion .navbar-brand {
+    font-family: "Bold";
+    font-size: 40px;
+}
+
+.pcversion .nav-link {
+    font-family: 'terang';
+    font-size: 30px;
+    color: black !important;
+}
+
+.pcversion .btn {
+    font-family: 'Bold';
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.pcversion1 .navbar-brand,
+.pcVersion .navbar-brand {
+    font-family: 'Bold';
+    font-size: 30px;
+}
+
+.pcVersion .jumbotron {
+    background-image: url("../img/headermenu/kereta.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 743px !important;
+}
+
+.Pesawat .jumbotron {
+    background-image: url("../img/headermenu/pesawat.png");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 743px !important;
+}
+
+.pcVersion .TiketKereta .col-12,
+.Pesawat .TiketKereta .col-12 {
+    background-color: white;
+    margin: auto !important;
+    margin-top: -50% !important;
+    height: 400px;
+    padding-top: 10% !important;
+    border-radius: 15px;
+    padding: 3%;
+}
+
+
+
+.pcVersion .TiketKereta form label,
+.Pesawat .TiketKereta form label {
+    font-family: "Bold";
+    font-size: 20px;
+    color: black;
+}
+
+/* ------------------
+    slider
+---------------------*/
+.slider {
+    margin-bottom: 3%;
+}
+
+.slider img {
+    margin-top: 100% !important;
+    margin-bottom: 20% !important;
+    width: 540px !important;
+    height: 290px;
+    border-radius: 10px;
+}
+
+/* -----------------
+    menu
+-------------------- */
+.menu .card {
+    border-color: white;
+}
+
+.menu .card img {
+    width: 86px;
+    height: 56px;
+}
+
+.menu .btn {
+    text-align: left !important;
+    font-family: 'Bold' !important;
+}
+
+.menu .card-title {
+    height: 30px;
+    font-family: 'Bold';
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    left: -20%;
+}
+
+/* --------------
+    fresh from kebun
+---------------*/
+.fresh h3 {
+    font-family: 'Bold';
+    font-size: 25px;
+    margin-top: 10%;
+}
+
+
+.fresh .card-title {
+    font-family: 'Bold';
+    font-size: 20px;
+}
+
+.fresh .card-text {
+    font-family: 'terang';
+    font-size: 20px;
+    color: black !important;
+}
+
+.fresh p a {
+    float: right !important;
+    margin-top: -3%;
+    font-family: "Bold";
+    text-decoration: none;
+    color: chocolate;
+}
+
+/* .fresh .card {
+        width: 120%;
+        margin-bottom: 10%;
+        text-align: left !important;
+    } */
+
+.figure-img {
+    position: relative;
+    width: 206.188px;
+    height: 200px;
+}
+
+.figure-img .hoveran {
+    width: 25% !important;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(1, 21, 45, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+/* --------------
+    sayuran popular
+---------------*/
+.popular h3 {
+    font-family: 'Bold';
+    font-size: 25px;
+    margin-top: 10%;
+}
+
+
+.popular p a {
+    float: right !important;
+    margin-top: -3%;
+    font-family: "Bold";
+    text-decoration: none;
+    color: chocolate;
+}
+
+.popular .card {
+    width: 190.188px;
+    height: 200px;
+    margin-bottom: 50%;
+    text-align: left !important;
+    border-color: white;
+}
+
+/* -------------
+        setting
+    ------------------*/
+
+.setting {
+    margin-bottom: 5%;
+}
+
+.setting .navbar-brand img {
+    width: 20% !important;
+}
+
+.setting .nav-link {
+    font-family: 'Bold';
+    font-size: 20px;
+}
+
+.fade .accordion {
+    margin: 40px 0;
+}
+
+.fade .accordion .item {
+    border: none;
+    margin-bottom: 50px;
+    background: none;
+}
+
+.fade .t-p {
+    font-family: 'terang';
+    color: black;
+    padding: 40px 30px 0px 30px;
+}
+
+.fade .accordion .item .item-header h2 button.btn.btn-link {
+    background: #333435;
+    color: white;
+    border-radius: 0px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.5;
+    text-decoration: none;
+}
+
+.fade .accordion .item .item-header {
+    border-bottom: none;
+    background: transparent;
+    padding: 0px;
+    margin: 2px;
+}
+
+.fade .accordion .item .item-header h2 button {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.fade .accordion .item .item-header h2 svg {
+    float: right;
+    font-size: 30px;
+    color: #eca300;
+    background-color: black;
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.fade button.btn.btn-link.collapsed svg {
+    transform: rotate(0deg);
+}
+
+.fade button.btn.btn-link svg {
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+
+.ui-w-80 {
+    width: 80px !important;
+    height: auto;
+}
+
+.btn-default {
+    border-color: rgba(24, 28, 33, 0.1);
+    background: rgba(0, 0, 0, 0);
+    color: #4E5155;
+}
+
+label.btn {
+    margin-bottom: 0;
+}
+
+.btn-outline-primary {
+    border-color: #26B4FF;
+    background: transparent;
+    color: #26B4FF;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.text-light {
+    color: #babbbc !important;
+}
+
+.btn-facebook {
+    border-color: rgba(0, 0, 0, 0);
+    background: #3B5998;
+    color: #fff;
+}
+
+.btn-instagram {
+    border-color: rgba(0, 0, 0, 0);
+    background: #000;
+    color: #fff;
+}
+
+
+.card {
+    background-clip: padding-box;
+    box-shadow: 0 1px 4px rgba(24, 28, 33, 0.012);
+}
+
+.row-bordered {
+    overflow: hidden;
+}
+
+.account-settings-fileinput {
+    position: absolute;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.account-settings-links .list-group-item.active {
+    font-weight: bold !important;
+}
+
+html:not(.dark-style) .account-settings-links .list-group-item.active {
+    background: transparent !important;
+}
+
+.account-settings-multiselect~.select2-container {
+    width: 100% !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+    color: #4e5155 !important;
+}
+
+.material-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.material-style .account-settings-links .list-group-item.active {
+    color: #4e5155 !important;
+}
+
+.dark-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+.dark-style .account-settings-links .list-group-item.active {
+    color: #fff !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+    color: #4E5155 !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.allowfile {
+    color: grey !important;
+}
+
+
+/* --------------
+        tiket
+    ---------------*/
+
+.tiketPesawat .col-10 {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .2);
+    margin: auto !important;
+    border-radius: 10px;
+    margin-bottom: 10% !important;
+}
+
+.tiketPesawat form {
+    margin-top: 5% !important;
+}
+
+.tiketPesawat form button {
+    margin-bottom: 10% !important;
+}
+
+.tiketPesawat form label {
+    font-family: 'terang';
+    font-size: 20px;
+    color: grey;
+}
+
+.hasilcari {
+    margin-top: 10%;
+}
+
+.hasilKu {
+    width: 50%;
+}
+
+.row {
+    overflow: hidden
+}
+
+
+.tiket {
+    margin-top: 5% !important;
+    text-align: center !important;
+    margin-bottom: 40%;
+}
+
+.tiket img {
+    margin: auto !important;
+    margin-top: 5%;
+}
+
+.tiket p {
+    font-family: 'terang';
+    text-transform: uppercase;
+    color: #989898;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.mytiket .DetailTiketSitiket h6 {
+    text-align: left !important;
+    font-family: "Bold" !important;
+    font-size: 30px !important;
+}
+
+.mytiket .DetailTiketSitiket h6:hover,
+.mytiket .DetailTiketSitiket_kedua h6:hover {
+    cursor: pointer;
+}
+
+
+.mytiket .DetailTiketSitiket_kedua h6 {
+    text-align: left !important;
+    font-family: "Bold" !important;
+    font-size: 30px !important;
+}
+
+
+.card {
+    display: table-row;
+    width: 49%;
+    background-color: #fff;
+    color: #989898;
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    border-radius: 4px;
+    position: relative;
+    text-align: left !important;
+}
+
+.card+.card {
+    margin-left: 2%;
+}
+
+.date {
+    display: table-cell;
+    width: 25%;
+    position: relative;
+    text-align: center;
+    border-right: 2px dashed #dadde6
+}
+
+.date time {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.date time span {
+    display: block
+}
+
+.date time span:first-child {
+    color: #2b2b2b;
+    font-weight: 600;
+    font-size: 250%
+}
+
+.date time span:last-child {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.card-cont {
+    display: table-cell;
+    width: 75%;
+    font-size: 85%;
+    padding: 10px 10px 30px 50px
+}
+
+.card-cont h3 {
+    color: #3C3C3C;
+    font-size: 130%
+}
+
+.card-cont>div {
+    display: table-row
+}
+
+.card-cont .even-date i,
+.card-cont .even-date time {
+    display: table-cell;
+}
+
+.card-cont .even-date i {
+    padding: 5% 5% 0 0;
+}
+
+.card-cont .even-date time span {
+    display: block;
+    font-family: 'Bold';
+    padding-left: 5%;
+}
+
+.card-cont a {
+    display: block;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    background-color: #D8DDE0;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px
+}
+
+.card-cont .even-date {
+    font-size: 25px;
+    font-family: 'bold';
+    font-weight: bold;
+}
+
+.card-cont .even-date span {
+    color: green;
+}
+
+
+.tiket a {
+    text-decoration: none;
+}
+
+.tiket a:hover {
+    text-decoration: none;
+}
+
+.mytiket .tiketing {
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+}
+
+.mytiket .border {
+    border-radius: 10px;
+}
+
+.mytiket .tiketing h3 {
+    font-family: "Bold";
+    font-size: 20px;
+    color: black;
+}
+
+.mytiket .tiketing .even-date h3 {
+    font-family: "terang";
+    font-size: 20px;
+    color: black !important;
+}
+
+.mytiket .tiketing .even-info p {
+    padding-top: 5%;
+    color: black;
+    text-decoration: none;
+    font-family: "terang";
+    font-size: 20px;
+}
+
+
+
+/* ---------------------------
+    Booking
+------------------------------ */
+.orangtua .judul img {
+    margin-right: 2%;
+    width: 10%;
+}
+
+.orangtua .judul h4 {
+    font-family: 'Bold';
+    font-size: 30px;
+}
+
+.orangtua .data {
+    margin-top: -10%;
+}
+
+.orangtua #angka,
+.orangtua #angka1 {
+    margin-top: 5%;
+    font-family: 'Bold';
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.detailPesawat {
+    margin-top: 8% !important;
+}
+
+.detailPesawat .col-10 {
+    margin: auto !important;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+
+.lebihdetail .col-7,
+.lebihdetail .col-4 {
+    margin-top: 2%;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.lebihdetail h6 {
+    font-family: 'Bold';
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.tambahPenumpang {
+    border: 1px solid grey;
+    margin-bottom: 5%;
+}
+
+.ubah {
+    position: relative;
+    right: -80% !important;
+}
+
+
+.lebihdetail p {
+    font-family: 'Bold';
+    font-size: 20px;
+}
+
+.detaillagi {
+    margin-top: 3%;
+}
+
+.lebihdetail span {
+    margin-top: -4% !important;
+    padding-bottom: 4% !important;
+    font-family: 'Bold';
+    font-size: 20px;
+}
+
+.detailPesawat h5 {
+    font-family: 'Bold';
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.nama_penumpangku {
+    font-family: 'Bold';
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+.detailPesawat .content,
+.detailPesawat .content small,
+.detailPesawat .harga h6,
+.lebihdetail h4 {
+    padding-bottom: 1%;
+    font-family: 'Bold';
+    font-size: 20px;
+}
+
+.detailPesawat .harga {
+    padding-bottom: 2%;
+}
+
+.detailPesawat .content .pesawat {
+    font-size: 20px;
+    color: blue;
+    padding-right: 1%;
+}
+
+.detailPesawat .content .arah,
+.lebihdetail .arah {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.detailPesawat .content span {
+    font-size: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/* --------------------
+            mytiket
+        --------------------- */
+
+.mytiket {
+    margin-top: 10%;
+}
+
+.mytiket button {
+    font-family: 'Bold';
+    text-transform: uppercase;
+    color: white !important;
+}
+
+.mytiket .DetailTiketSitiket {
+    text-align: left;
+    font-family: "Bold";
+    font-size: 20px;
+    color: black;
+}
+
+.mytiket a,
+.mytiket a:hover {
+    text-decoration: none;
+}
+
+
+.detailTiketKu,
+.penumpang {
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.detailpenumpang {
+    margin-top: 5%;
+}
+
+.detailpenumpang .judul h5 {
+    font-family: "Bold";
+    font-size: 25px;
+}
+
+.detailTiketKu ul {
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+
+.detailTiketKu .mydetail {
+    margin-top: -6% !important;
+}
+
+.detailTiketKu .mydetail .judul {
+    font-family: 'Bold';
+    color: black;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    padding-bottom: 1%;
+    /* margin-bottom: -1% !important; */
+}
+
+.detailTiketKu .mydetail .berangkat {
+    font-family: 'Bold';
+    padding-top: 3%;
+}
+
+.detailTiketKu .mydetail .sampai {
+    font-family: 'Bold';
+    margin-top: 30% !important;
+}
+
+.detailTiketKu .mydetail .tanggal {
+    padding-top: 5%;
+    font-family: 'terang';
+    font-size: 20px;
+    color: black !important;
+}
+
+.note {
+    margin-top: 5%;
+}
+
+.note .judul h6 {
+    font-family: 'Bold';
+    font-size: 30px;
+}
+
+.note .judul ul li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.note .judul b {
+    font-weight: bold !important;
+}
+
+.mytiket .ilang {
+    margin: auto !important;
+}
+
+
+.uploadGambar {
+    margin-top: -10%;
+    overflow: hidden;
+}
+
+.uploadGambar img {
+    margin-top: 2%;
+    width: 100% !important;
+}
+
+.uploadGambar .btn-outline-primary {
+    width: 100% !important;
+}
+
+.payout {
+    margin-top: 12% !important;
+}
+
+.mytiket .ilang p {
+    font-family: 'Bold';
+    font-size: 30px;
+}
+
+
+
+/* -------------
+    pembayaran
+----------------*/
+.tiketYangDiChekout {
+    margin-top: 10% !important;
+}
+
+
+.tiketYangDiChekout .border .tiketing {
+    padding-top: 10% !important;
+    padding-bottom: 5% !important;
+}
+
+.tiketYangDiChekout .tiketing h3 {
+    font-family: "Bold";
+    font-size: 20px;
+}
+
+.tiketYangDiChekout .tiketing p {
+    font-family: "terang";
+    font-size: 18px;
+}
+
+.tiketYangDiChekout .metodePembayaran .accordion .item {
+    border: none;
+    margin-bottom: 50px;
+    background: none;
+}
+
+.tiketYangDiChekout .metodePembayaran .t-p {
+    font-family: 'terang';
+    color: black;
+    padding: 30px 10px 0px 22px;
+}
+
+.tiketYangDiChekout .metodePembayaran .accordion .item .item-header h2 button.btn.btn-link {
+    background: #333435;
+    color: white;
+    border-radius: 0px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.5;
+    text-decoration: none;
+}
+
+.tiketYangDiChekout .metodePembayaran .accordion .item .item-header {
+    border-bottom: none;
+    background: transparent;
+    padding: 0px;
+    margin: 2px;
+}
+
+.tiketYangDiChekout .metodePembayaran .accordion .item .item-header h2 button {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+
+.tiketYangDiChekout .metodePembayaran .accordion .item .item-header h2 img {
+    float: right;
+    font-size: 30px;
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.tiketYangDiChekout #TotalBayar .totalYangDibayar {
+    font-family: "Bold";
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.tiketYangDiChekout #labelUploadGambar {
+    margin-left: -3% !important;
+}
+
+.tiketYangDiChekout .invalid-feedback {
+    font-family: "Bold" !important;
+    padding-top: 2% !important;
+    font-size: 20px !important;
+    color: red !important;
+    font-weight: bold !important;
+}
+
+
+
+
+
+@media (max-width: 992px) {
+
+    /* -------------
+            navbar
+        ------------------*/
+    #navbar ul li a:hover,
+    #navbar ul li a.active {
+        color: blue;
+    }
+
+    .payout {
+        margin-bottom: 20% !important;
+    }
+
+    .navbar-brand {
+        width: 80% !important;
+    }
+
+    .navbar {
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    .navbar h6 {
+        font-family: 'Bold';
+        font-size: 25px;
+        margin-top: 3%;
+    }
+
+    .navbar img {
+        width: 20%;
+    }
+
+
+    .navbar h2 {
+        margin-left: 15%;
+        margin-top: 5%;
+        font-family: "Bold";
+    }
+
+    .active_icon {
+        color: green !important;
+    }
+
+    .hp .navbar {
+        display: inline !important;
+    }
+
+    .cart {
+        padding-right: 5%;
+    }
+
+    .cart .cari {
+        padding-right: 15% !important;
+    }
+
+    .cart .angka {
+        float: right !important;
+        /* margin-right: -15% !important; */
+        z-index: 111;
+        position: relative;
+        margin-top: -100% !important;
+        font-family: "Bold";
+    }
+
+    .cart .cari1,
+    .cart .Pencarian1 {
+        margin-top: -80% !important;
+    }
+
+    .cart .Pencarian1 {
+        padding-right: 20% !important;
+    }
+
+    .cart .Pencarian {
+        padding-right: 20% !important;
+    }
+
+    .cart a {
+        color: black;
+        text-decoration: none;
+        float: right !important;
+        margin-top: -66% !important;
+        margin-right: 10% !important;
+    }
+
+    /* ------------------
+            slider
+        ---------------------*/
+    .slider {
+        margin-top: 30% !important;
+    }
+
+    .slider img {
+        margin-top: 2% !important;
+        margin-bottom: 2% !important;
+        width: 360px !important;
+        height: 200px;
+        margin-right: 10% !important;
+        border-radius: 10px;
+    }
+
+
+    /* --------------
+            fresh from kebun
+        ---------------*/
+    .fresh h3 {
+        font-family: 'Bold';
+        font-size: 25px;
+        margin-top: 10%;
+    }
+
+
+    .fresh .card-title {
+        font-family: 'Bold';
+        font-size: 20px;
+    }
+
+    .fresh .card-text {
+        font-family: 'terang';
+        font-size: 20px;
+        color: black !important;
+    }
+
+    .fresh p {
+        font-family: "terang";
+        font-size: 18px;
+    }
+
+    .figure-img {
+        position: relative;
+        width: 106px;
+        height: 100px;
+    }
+
+    .figure-img .hoveran {
+        width: 25% !important;
+    }
+
+    .figure-img a {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background-color: rgba(1, 21, 45, 0.6);
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .figure-img:hover a {
+        opacity: 1;
+    }
+
+
+    /* --------------
+            sayuran popular
+        ---------------*/
+    .popular {
+        margin-bottom: 20%;
+    }
+
+    .popular h3 {
+        font-family: 'Bold';
+        font-size: 25px;
+        margin-top: 10%;
+    }
+
+
+    .popular .caption {
+        font-family: "terang";
+        font-size: 20px;
+    }
+
+    .popular .card {
+        margin-bottom: 50%;
+        text-align: left !important;
+    }
+
+    /* -----------------
+            menu
+        -------------------- */
+    .menu {
+        margin-top: 10%;
+    }
+
+
+    .menu .card img {
+        width: 86px;
+        height: 56px;
+    }
+
+
+    .menu .card-title {
+        height: 30px;
+        font-family: 'Bold';
+        font-size: 14px;
+        line-height: 20px;
+        position: relative;
+        left: -20%;
+    }
+
+    /* -----------------
+            setting
+        -------------------- */
+
+    .setting {
+        background-color: white;
+        display: inline !important;
+    }
+
+    .setting h5 {
+        font-family: 'Bold';
+        margin-top: 8%;
+        text-align: center !important;
+        font-size: 25px;
+    }
+
+    .setting .navbar-brand {
+        font-family: 'Bold';
+        font-size: 25px;
+    }
+
+    .lainya .content {
+        margin-top: 26%;
+    }
+
+    .lainya .judul {
+        background-color: rgb(236, 236, 236);
+        padding: 5px;
+    }
+
+
+    .lainya .judul h6 {
+        padding-top: 10px;
+        font-family: 'Bold';
+        color: gray;
+        font-size: 20px;
+    }
+
+    .lainya .contentAccount a {
+        text-decoration: none;
+        font-family: 'Bold';
+        color: black;
+        display: flex !important;
+    }
+
+    .lainya .contentAccount ul li {
+        padding-top: 26px;
+        padding-bottom: 10px;
+        border-top: 1px solid rgb(230, 229, 229);
+        border-bottom: 1px solid rgb(221, 221, 221);
+    }
+
+    .lainya .contentAccount h5 {
+        font-family: 'Bold';
+        font-size: 24px;
+        padding-top: 2px;
+    }
+
+    .ubahakun .ubahpassword {
+        margin-top: 30% !important;
+    }
+
+    .lainya .contentAccount i {
+        font-size: 30px;
+    }
+
+    .ubahakun {
+        margin-bottom: 20% !important;
+    }
+
+    .ubahakun form {
+        margin-top: 23% !important;
+    }
+
+    .ubahakun .navbar-brand {
+        font-family: 'Bold';
+        font-size: 30px;
+    }
+
+
+    /* .akunname h5 {
+            font-family: 'Bold';
+            font-size: 20px;
+            margin-top: 15%;
+            text-transform: uppercase;
+            margin-left: 5% !important;
+        }
+
+        .akunname .settingakun {
+            background-color: #d6d5d5;
+            margin-top: -2% !important;
+            border-radius: 10px;
+        } */
+
+    .judul h3 {
+        font-family: 'Bold';
+        font-size: 30px;
+        margin-top: 10%;
+        margin-bottom: 6%;
+    }
+
+    .lainya .media-body .kalimat {
+        font-family: 'Bold';
+        font-size: 20px;
+        margin-left: -40% !important;
+    }
+
+    .lainya .settingakun {
+        background-color: #d6d5d5;
+        border-radius: 10px;
+    }
+
+    .lainya .btn {
+        display: flex !important;
+    }
+
+    .lainya .media-body .kalimay {
+        font-family: 'Bold';
+        font-size: 20px;
+        margin-left: -70% !important;
+    }
+
+    .lainya .media-body .kalimau {
+        font-family: 'Bold';
+        font-size: 20px;
+        margin-left: -50% !important;
+    }
+
+    .lainya img {
+        width: 10%;
+    }
+
+    /* -----------------
+            pusat bantuan
+        -------------------- */
+    .mobile .navbar-brand {
+        font-family: 'Bold';
+        font-size: 25px;
+    }
+
+
+    .bantuan {
+        margin-top: 26% !important;
+        margin-bottom: 30% !important;
+    }
+
+    .bantuan .accordion {
+        margin: 40px 0;
+    }
+
+    .bantuan .accordion .item,
+    .metodePembayaran .accordion .item {
+        border: none;
+        margin-bottom: 50px;
+        background: none;
+    }
+
+    .bantuan .t-p,
+    .metodePembayaran .t-p {
+        font-family: 'terang';
+        color: black;
+        padding: 30px 10px 0px 22px;
+    }
+
+    .bantuan .accordion .item .item-header h2 button.btn.btn-link,
+    .metodePembayaran .accordion .item .item-header h2 button.btn.btn-link {
+        background: #333435;
+        color: white;
+        border-radius: 0px;
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 2.5;
+        text-decoration: none;
+    }
+
+    .bantuan .accordion .item .item-header,
+    .metodePembayaran .accordion .item .item-header {
+        border-bottom: none;
+        background: transparent;
+        padding: 0px;
+        margin: 2px;
+    }
+
+    .bantuan .accordion .item .item-header h2 button,
+    .metodePembayaran .accordion .item .item-header h2 button {
+        color: white;
+        font-size: 20px;
+        padding: 15px;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .bantuan .accordion .item .item-header h2 svg {
+        float: right;
+        font-size: 30px;
+        color: #eca300;
+        background-color: black;
+        width: 60px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .metodePembayaran .accordion .item .item-header h2 img {
+        float: right;
+        font-size: 30px;
+        width: 60px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .bantuan button.btn.btn-link.collapsed svg {
+        transform: rotate(0deg);
+    }
+
+    .bantuan button.btn.btn-link svg {
+        transform: rotate(180deg);
+        transition: 0.5s;
+    }
+
+    /* -----------------
+            pesawat terbang
+        -------------------- */
+    .mobile img {
+        max-width: 100%;
+    }
+
+
+    .mobile .formlogin {
+        position: relative;
+        z-index: 1;
+        padding-top: 10%;
+        margin-top: -20%;
+        background-color: white !important;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+
+    .mobile .BackMenu {
+        padding-top: .8%;
+        padding-left: 3%;
+        margin-left: 4%;
+        color: white !important;
+        position: absolute;
+        z-index: 111;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 100px;
+        margin-bottom: -100% !important;
+        margin-top: 5%;
+        text-decoration: none;
+        display: block;
+        transform: none;
+        transition: all 0s ease 0s;
+        width: 50px;
+        height: 50px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        background-position: 0% 0%;
+        color: #2962FF;
+        font-size: 30px;
+    }
+
+    .mobile .formlogin .alert {
+        font-family: 'Bold';
+        font-size: 20px;
+    }
+
+    .mobile .formlogin h5 {
+        font-family: 'Bold';
+        font-size: 35px;
+        margin-bottom: 5%;
+    }
+
+    /* -------------------
+            hasil pencarian
+        --------------------- */
+    .hasilcari {
+        margin-top: 26%;
+    }
+
+    .row {
+        overflow: hidden
+    }
+
+
+    .tiket {
+        margin-top: 10%;
+        margin-bottom: 40%;
+    }
+
+    .tiket img {
+        margin-top: 10%;
+    }
+
+    .hasilKu {
+        width: 100%;
+    }
+
+    .tiket p {
+        font-family: 'terang';
+        text-transform: uppercase;
+        color: #989898;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+
+    .card {
+        display: table-row;
+        width: 49%;
+        background-color: #fff;
+        color: #989898;
+        margin-bottom: 10px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        border-radius: 4px;
+        position: relative
+    }
+
+    .card+.card {
+        margin-left: 2%;
+    }
+
+    .date {
+        display: table-cell;
+        width: 25%;
+        position: relative;
+        text-align: center;
+        border-right: 2px dashed #dadde6
+    }
+
+    .date time {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%)
+    }
+
+    .date time span {
+        display: block
+    }
+
+    .date time span:first-child {
+        color: #2b2b2b;
+        font-weight: 600;
+        font-size: 250%
+    }
+
+    .date time span:last-child {
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: -10px;
+        font-size: 20px;
+    }
+
+    .card-cont {
+        display: table-cell;
+        width: 75%;
+        font-size: 85%;
+        padding: 10px 10px 30px 50px
+    }
+
+    .card-cont h3 {
+        color: #3C3C3C;
+        font-size: 130%
+    }
+
+    .card-cont>div {
+        display: table-row
+    }
+
+    .card-cont .even-date i,
+    .card-cont .even-date time {
+        display: table-cell;
+    }
+
+    .card-cont .even-date i {
+        padding: 5% 5% 0 0;
+        font-size: 10px;
+    }
+
+    .card-cont .even-date time span {
+        display: block;
+        font-family: 'Bold';
+        padding-left: 5%;
+    }
+
+    .card-cont a {
+        display: block;
+        text-decoration: none;
+        width: 80px;
+        height: 30px;
+        background-color: #D8DDE0;
+        color: #fff;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 2px;
+        position: absolute;
+        right: 10px;
+        bottom: 10px
+    }
+
+    /* 
+        .panah {
+            position: absolute;
+            top: 22%;
+            left: 85%;
+            font-size: 30px;
+        } */
+
+
+    @media screen and (max-width: 860px) {
+        .card {
+            display: block;
+            float: none;
+            width: 100%;
+            margin-bottom: 50px
+        }
+
+        .card+.card {
+            margin-left: 0
+        }
+
+        .card-cont .even-date {
+            font-size: 15px;
+            font-family: 'bold';
+            font-weight: bold;
+        }
+
+        .card-cont .even-date span {
+            color: green;
+        }
+    }
+
+    /* ---------------------------
+                Booking
+        ------------------------------ */
+    .bayar {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .bayar .navbar-brand {
+        font-family: 'Bold';
+        font-size: 25px;
+    }
+
+    .bayar form button {
+        font-family: 'Bold';
+        font-size: 20px;
+        color: white;
+        width: 100% !important;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+
+    .kendaraan {
+        margin-top: 30%;
+    }
+
+    .kendaraan .pesawat {
+        font-size: 30px;
+        color: blue;
+        padding-right: 5%;
+    }
+
+    .kendaraan .card-header small {
+        font-family: 'Bold';
+        font-size: 25px;
+        margin-top: -5%;
+        color: black;
+    }
+
+
+    .kendaraan .card-body h6,
+    .kendaraan .card-body h5 {
+        font-family: 'Bold';
+        font-size: 20px;
+        color: black;
+    }
+
+    .kendaraan .card-body h5 {
+        margin-bottom: 15%;
+    }
+
+
+    .kendaraan .card-body span {
+        font-family: 'Bold';
+        font-size: 20px;
+        color: black;
+    }
+
+
+    .tambahPenumpang {
+        border: 1px solid grey;
+    }
+
+    .bismilahh {
+        margin-bottom: 50% !important;
+    }
+
+    .form {
+        margin-bottom: 60% !important;
+    }
+
+    /* --------------------
+            orangtua
+        -----------------------*/
+    .orangtua .judul img {
+        margin-right: 2%;
+        width: 10%;
+    }
+
+    .orangtua .judul h4 {
+        font-family: 'Bold';
+        font-size: 30px;
+    }
+
+    .orangtua .data {
+        margin-top: -12%;
+    }
+
+    .orangtua #angka,
+    .orangtua #angka1 {
+        margin-top: 5%;
+        font-family: 'Bold';
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* --------------------
+            mytiket
+        --------------------- */
+
+    .mytiket {
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
+
+    .tiketYangChekout {
+        margin-top: 30% !important;
+    }
+
+    .mytiket button {
+        font-family: 'Bold';
+        text-transform: uppercase;
+        color: white !important;
+    }
+
+    .mytiket a,
+    .mytiket a:hover {
+        text-decoration: none;
+    }
+
+    .mytiket .overviewContent {
+        margin-top: -600% !important;
+    }
+
+    .mytiket .list-inline-item {
+        margin-bottom: -80% !important;
+    }
+
+    .mytiket .card-cont,
+    .tiketYangChekout .card-cont {
+        padding-left: 20px;
+        padding-top: 30px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .mytiket .date,
+    .tiketYangChekout .date {
+        display: table-cell;
+        width: 35%;
+        position: relative;
+        text-align: center;
+        border-right: 2px dashed #dadde6;
+        font-family: "Bold";
+        font-size: 14px;
+    }
+
+    /* .mytiket .card-cont h3 {
+            margin-top: 10% !important;
+        } */
+
+    .mytiket svg {
+        margin: auto !important;
+    }
+
+    .mytiket .menu .overview1 {
+        width: 500% !important;
+        font-family: "Bold";
+        font-size: 13px;
+        margin-top: -32% !important;
+        margin-left: -70% !important;
+    }
+
+    .mytiket .menu .itinerary1 {
+        width: 100% !important;
+        font-family: "Bold";
+        font-size: 13px;
+        margin-top: -18% !important;
+        margin-left: -20% !important;
+    }
+
+    .detailTiketKu .mydetail .judul {
+        font-family: 'Bold';
+        color: black;
+        font-size: 20px;
+        border-bottom: 2px solid black;
+        padding-bottom: 1%;
+        /* margin-bottom: -1% !important; */
+    }
+
+    .detailTiketKu .mydetail .tanggal {
+        padding-top: 5%;
+        font-family: 'terang';
+        font-size: 18px;
+        color: black !important;
+    }
+
+    .kode_pesan {
+        font-size: 15px;
+    }
+
+    .kode_booking {
+        font-size: 14px;
+    }
+
+    .detailTiketKu .mydetail .berangkat {
+        font-size: 15px;
+    }
+
+    .detailTiketKu .mydetail .sampai {
+        font-size: 12px;
+        margin-top: 55% !important;
+    }
+
+    .penumpang {
+        margin-bottom: 30% !important;
+    }
+
+    .mytiket .ilang img {
+        width: 60%;
+        margin: 20%;
+    }
+
+    .mytiket .ilang p {
+        font-family: 'terang';
+        font-size: 30px;
+    }
+
+    .rutePerjalan {
+        margin-top: 30%;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .2);
+        border-radius: 10px;
+    }
+
+    .rutePerjalan h5 {
+        font-family: 'terang';
+        padding-top: 10%;
+        padding-left: 19%;
+        font-size: 20px;
+    }
+
+    .rutePerjalan h6 {
+        font-family: "Bold";
+        font-size: 18px;
+        padding-bottom: 10%;
+        padding-left: 19%;
+    }
+
+    .detailPerjalanan {
+        margin-top: 10%;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .2);
+        border-radius: 10px;
+    }
+
+    .kodeBooking {
+        margin-top: 10%;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .2);
+        border-radius: 10px;
+    }
+
+    .kodeBooking h5 {
+        font-family: "bold";
+        font-size: 20px;
+        color: blue;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+
+    .kodeBooking p {
+        font-family: 'Bold';
+        font-size: 17px;
+        padding-top: 1%;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+
+    .detailPerjalanan h5 {
+        font-family: "bold";
+        font-size: 20px;
+        color: blue;
+        padding-top: 10%;
+        padding-left: 5%;
+    }
+
+    .detailPerjalanan p {
+        font-family: 'Bold';
+        font-size: 17px;
+        padding-top: 1%;
+        padding-left: 5%;
+    }
+
+    .detailPerjalanan .judulkedua {
+        font-family: "bold";
+        font-size: 20px;
+        color: blue;
+        padding-top: 1%;
+        padding-left: 5%;
+    }
+
+    .detailPerjalanan .rute {
+        padding-bottom: 5%;
+    }
+
+    .detailYangIkut {
+        margin-top: 20%;
+        margin-bottom: 30%;
+    }
+
+    .detailYangIkut h5 {
+        font-family: 'Bold';
+        font-size: 30px;
+        padding-bottom: 2%;
+    }
+
+    .detailYangIkut h6 {
+        font-family: "Bold";
+        font-size: 16px;
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+
+    .detailYangIkut .myclass,
+    .detailYangIkut .myclass:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+
+    #book {
+        margin-bottom: 50%;
+    }
+
+
+    /* -----------------------
+            chekout
+        -------------------------*/
+    .totalYangDibayar {
+        font-family: "Bold";
+        color: black !important;
+        text-decoration: none;
+    }
+
+    #TotalBayar {
+        margin-bottom: 30% !important;
+    }
+
+    #TotalBayar #labelUploadGambar {
+        margin-left: -5% !important;
+        margin-bottom: 5%;
+    }
+
+    #TotalBayar .invalid-feedback {
+        font-family: "Bold";
+        color: red;
+        margin-top: 5% !important;
+        margin-bottom: 15% !important;
+    }
+
+
+    /* ----------------------
+        preview hotel
+    -------------------------*/
+
+    .PreviewHotel img {
+        height: 300px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .namaHotel h4 {
+        font-family: "Bold";
+        font-size: 40px;
+        padding-top: 10%;
+        padding-left: 5%;
+    }
+
+    .namaHotel i {
+        color: grey !important;
+    }
+
+    .namaHotel p,
+    .DeskripsiSingkatHotel p {
+        font-family: "terang";
+        font-size: 20px;
+        padding-left: 5%;
+        padding-bottom: 1%;
+    }
+
+    .DeskripsiSingkatHotel p {
+        padding-right: 4%;
+    }
+
+    .lihatKamar a {
+        font-family: "Bold";
+        font-size: 20px;
+    }
+
+    .review h5 {
+        font-family: "Bold";
+        font-size: 20px;
+        padding-left: 5%;
+    }
+
+    .review a {
+        text-decoration: none;
+        font-family: "Bold";
+        float: right !important;
+    }
+
+    .review .contohReview {
+        margin-top: 10%;
+        margin-bottom: 100% !important;
+    }
+
+    .review .contohReview img {
+        width: 90px;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: 80px;
+    }
+
+    .review .contohReview h5 {
+        padding-top: 7%;
+        padding-left: 15%;
+        margin-bottom: 1% !important;
+        font-family: "Bold";
+    }
+
+    .review .contohReview .header {
+        border-bottom: 2px solid grey;
+    }
+
+    .review .contohReview p {
+        font-family: 'Terang';
+        color: grey !important;
+    }
+
+    .review .contohReview .reviewne {
+        padding-top: 4%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #navbarAtas .navbar-brand {
+        font-family: "Bold" !important;
+        font-size: 30px !important;
+    }
+
+    #menuDetialHotel ul li p {
+        font-family: "Bold";
+        font-size: 20px;
+        padding-top: 10px;
+        margin-bottom: -100% !important;
+    }
+}

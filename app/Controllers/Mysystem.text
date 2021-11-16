@@ -1,0 +1,47 @@
+// $length = 4;
+            // $arr = [];
+            // $characters = '1234567890SITIKET';
+            // $randomString = '';
+            // $charactersLength = strlen($characters);
+            // for ($i = 0; $i < $jumlahPenumpang; $i++) {
+            //     for ($i = 0; $i < $length; $i++) {
+            //         $code = str_shuffle($randomString .= $characters[rand(0, $charactersLength - 1)]);
+            //         array_push($arr, $code);
+            //     }
+            // }
+
+              // ambil semua data penumpang berdasarkan username yang login
+            $username = $this->penumpangModel->where(['username' => session()->get('username')])->first();
+            // habis itu ambil alamatnya 
+            $tempat_pesan = $username['alamat_penumpang'];
+            // ambil inputan kodeIkut yang kita kirim dari booking page
+            $mykode  = htmlspecialchars($this->request->getVar('kodeIkut'));
+            $dataRute = array('mykode' => $mykode, 'id_user' => session()->get('id'));
+            // habis itu join antara tabel ikut dan tabel rute
+            $ruteYangdiinput = $this->ruteModel->join('ikut', 'ikut.kodeIkut=rute.mykode')->where($dataRute)->first();
+            $jamCekin = date('h:i a');
+            // $jumlahPenumpang = htmlspecialchars($this->request->getVar('jumlahPenumpang'));
+            $tanggal_pesan = date("d m Y");
+            $id_pelanggan = session()->get('id');
+            $dataKursi = array('id_user' => session()->get('id'), 'myKode' => $mykode);
+            $kode_kursi = $this->KodekursiModel->where($dataKursi)->findAll();
+
+
+            $this->pesan->save([
+                'kode_pesan' => $this->kendar->generate_code(20),
+                'tanggal_pesan' => $tanggal_pesan,
+                'tempat_pesan' => $tempat_pesan,
+                'id_pelanggan' => $id_pelanggan,
+                'kode_kursi' =>   $kode_kursi,
+                'id_rute' => htmlspecialchars($this->request->getVar('id_rute')),
+                'tanggal_berangkat' => htmlspecialchars($this->request->getVar('tanggalBerangkat')),
+                'jam_cek_in' => $jamCekin,
+                'jam_berangkat' => htmlspecialchars($this->request->getVar("jamBerangkat")),
+                'total_bayar' => htmlspecialchars($this->request->getVar('totalbayar')),
+                'id_petugas' => 0,
+                'id_ikut' => $ruteYangdiinput['id_ikut'],
+                'status' => 0,
+                'tujuan' => htmlspecialchars($this->request->getVar('tujuan')),
+            ]);
+
+            return redirect()->to('Tampilan/tiket');
