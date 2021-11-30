@@ -28,34 +28,32 @@
             <div id="menuDetialHotel" class="container owl-carousel d-flex">
                 <div class="container">
                     <ul class="list-inline owl-carousel nameHotel">
-                        <a href="" class="list-inline-item">
-                            <li id="infoUmum" class="list-inline-item mr-3 c-point DetailTiketSitiket" style="color: black;">
+                        <a href="#namaHotel" class="list-inline-item" id="navlink">
+                            <li id="infoUmum" class="list-inline-item scrollto actie mr-3  c-point DetailTiketSitiket" style="color: black;">
                                 <p>info umum</p>
                             </li>
                         </a>
-                        <a href="" class="list-inline-item">
-                            <li class="list-inline-item mr-3 c-point DetailTiketSitiket" id="Review" style="color: black;">
+                        <a href="#Reviews" class="list-inline-item" id="review">
+                            <li class="list-inline-item mr-3 c-point DetailTiketSitiket " id="Review" style="color: black;">
                                 <p>Review</p>
                             </li>
                         </a>
-                        <a href="" class="list-inline-item">
-                            <li class="list-inline-item mr-3 c-point DetailTiketSitiket" id="fasilitas" style="color: black;">
+                        <a href="" class="list-inline-item" id="navlink">
+                            <li class="list-inline-item mr-3 c-point DetailTiketSitiket " id="fasilitas" style="color: black;">
                                 <p>Fasilitas</p>
                             </li>
                         </a>
-
-                        <a href="" class="list-inline-item">
-                            <li class="list-inline-item mr-3 c-point DetailTiketSitiket_kedua" style="color: black;" id="akomoditas">
+                        <a href="" class="list-inline-item" id="navlink">
+                            <li class="list-inline-item mr-3 c-point DetailTiketSitiket_kedua " style="color: black;" id="akomoditas">
                                 <p>Akomodasi</p>
                             </li>
                         </a>
-
-                        <a href="" class="list-inline-item">
-                            <li class="list-inline-item mr-3 c-point DetailTiketSitiket_kedua" id="kamar" style="color: #000;">
+                        <a href="" class="list-inline-item" id="navlink">
+                            <li class="list-inline-item mr-3 c-point DetailTiketSitiket_kedua navlink" id="kamar" style="color: #000;">
                                 <p>kamar</p>
                             </li>
                         </a>
-                        <a href="" class="list-inline-item">
+                        <a href="" class="list-inline-item" id="navlink">
                             <li class="list-inline-item mr-3 c-point DetailTiketSitiket_kedua" id="lokasi" style="color: #000;">
                                 <p>lokasi</p>
                             </li>
@@ -172,7 +170,7 @@
 
     <nav class="navbar navbar-light lihatKamar shadow-lg navbar-expand fixed-bottom" id="navbarBawah">
         <div class="container">
-            <a href="" class="btn btn-primary form-control">lihat kamar</a>
+            <a href="" class="btn btn-primary form-control lihatKamar">lihat kamar</a>
         </div>
     </nav>
 

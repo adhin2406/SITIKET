@@ -13,6 +13,11 @@
     <link href="<?= base_url() ?>/sbadmin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
 
+    <link href="<?= base_url() ?>/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="<?= base_url() ?>/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="<?= base_url() ?>/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="<?= base_url() ?>/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="<?= base_url() ?>/css/owl.carousel.min.css">
     <link rel="stylesheet" href="<?= base_url() ?>/css/Utama.css">
 
@@ -36,6 +41,13 @@
     <script src="<?= base_url() ?>/js/bootstrap.bundle.min.js"></script>
     <script src="<?= base_url() ?>/js/owl.carousel.min.js"></script>
     <script src="<?= base_url() ?>/js/sweetalert2.all.min.js"></script>
+    <script src="<?= base_url() ?>/assets/vendor/aos/aos.js'"></script>
+    <script src="<?= base_url() ?>/assets/vendor/php-email-form/validate.js"></script>
+    <script src="<?= base_url() ?>/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="<?= base_url() ?>/assets/vendor/purecounter/purecounter.js"></script>
+    <script src="<?= base_url() ?>/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="<?= base_url() ?>/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="<?= base_url() ?>/assets/js/js.js"></script>
     <script src="<?= base_url() ?>/js/main.js"></script>
     <script>
         $('.readMore').click(function(e) {

@@ -2088,4 +2088,26 @@ html:not(.dark-style) .account-settings-links .list-group-item.active {
         padding-top: 10px;
         margin-bottom: -100% !important;
     }
+
+    #navbarAtas .scrollto.active {
+        color: var(--primary);
+    }
+
+    #navbarAtas .scrollto.active::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        background: var(--primary);
+        position: absolute;
+        border-radius: 6px;
+        bottom: 3px;
+    }
+
+    #navbarAtas .scrollto.active::before {
+        content: none;
+    }
+
+    .lihatKamar {
+        border-radius: 50px;
+    }
 }
